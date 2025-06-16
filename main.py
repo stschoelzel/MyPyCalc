@@ -5,7 +5,6 @@ import functions
 def main():
     window = Tk()
     window.title("MyPyCalc")
-    window.geometry("600x400")
 
     # Erstelle das Layout und das Eingabefeld
     entry = Entry(window, width=20, borderwidth=5, font=("Arial", 18))
